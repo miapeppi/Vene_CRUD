@@ -1,0 +1,60 @@
+body {
+	background-color: #f2f2f2;
+  display: flex;
+  justify-content: center;
+}
+
+tbody {
+	font-family: Courier New;
+}
+
+table tbody tr:nth-child(even){
+	background-color: #D9D9D9;
+}
+table tbody tr:hover {
+	background-color: #4E84AD;
+}
+
+th {
+	background-color: #354E61;
+	color: white;
+	font-family: Courier New;
+	padding: 15px 20px;
+}
+
+td {
+	padding: 6px;
+}
+
+.nappi {
+	cursor: pointer;
+	background-color: #FE6B41;
+	color: white;
+	border: 1px solid;
+	
+}
+
+input[type=text] {
+  width: 100%;
+}
+
+input[type=button], input[type=submit] {
+    font-family: Courier New;
+    font-size: 10px;
+}
+
+#ilmo {
+	font-family: Courier New;
+	color: #FE6B41;	
+}
+
+.siirry {
+	cursor: pointer;
+	padding: 2px;
+	border: 1px solid;
+	background-color: #FE6B41;
+}
+
+.oikealle {
+	text-align: right;
+}
